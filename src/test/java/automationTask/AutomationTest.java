@@ -46,7 +46,7 @@ public class AutomationTest {
         driver.switchTo().window((String) windowHandles[1]);
 
 
-        Assert.assertEquals(driver.getCurrentUrl(), "https://github.com/microsoft/playwright","match url failed");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://github.com/microsoft/playwright","match   url failed");
 
     }
 
