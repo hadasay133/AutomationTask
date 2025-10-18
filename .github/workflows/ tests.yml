@@ -2,7 +2,7 @@ name: Run Tests and Generate Allure Report in Project Root
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
 
 jobs:
