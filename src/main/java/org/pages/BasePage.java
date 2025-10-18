@@ -20,8 +20,8 @@ public class BasePage {
     public BasePage(WebDriver driver) {
 
         this.driver = driver;
-        actions = new Actions(driver);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(45));
+        this.actions = new Actions(driver);
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(45));
     }
 
 

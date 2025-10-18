@@ -1,5 +1,9 @@
 package automationTask;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.pages.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,6 +33,9 @@ public class AutomationTest {
     }
 
     @Test
+    @Severity(SeverityLevel.CRITICAL)
+    @Feature("UI Flow")
+    @Description("check the URL of page - UI flow")
     public void automationTest() {
 
         driver.get( "https://practice-automation.com/");

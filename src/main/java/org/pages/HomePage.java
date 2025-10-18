@@ -14,7 +14,7 @@ public class HomePage extends BasePage {
 
     private By getLinkLocator(HomePageLinks homePageLink) {
 
-        return By.cssSelector("a[href='https://practice-automation.com/" + homePageLink + "/']");
+        return By.cssSelector("a[href=' /" + homePageLink + "/']");
 
     }
 
